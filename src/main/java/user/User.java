@@ -77,7 +77,7 @@ public class User {
         this.status = status;
     }
 
-    @Override
+    @Override //przysłonięcie implementacji z nadklasy
     public String toString() {
         return "User{" +
                 "login='" + login + '\'' +
