@@ -1,4 +1,6 @@
-package oop;
+package interfaces;
+
+import oop.User;
 
 import java.time.LocalDate;
 
