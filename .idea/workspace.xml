@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":))">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/UserControllerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/user/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,11 +44,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="user.Main" />
+      <option name="MAIN_CLASS_NAME" value="oop.Main" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="user.*" />
+          <option name="PATTERN" value="oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618823731508</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":))">
+      <created>1618826388295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618826388295</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

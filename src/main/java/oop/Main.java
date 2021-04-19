@@ -1,4 +1,4 @@
-package user;
+package oop;
 
 import java.time.LocalDate;
 
@@ -8,7 +8,9 @@ public class Main {
     public boolean isActivated(Object o ){
         return ((User) o) .isStatus();
     }
-
+    public boolean isEarlierRegistrated( User u1, User u2){
+      return u1.getRegistrationDateTime().isBefore(u2.getRegistrationDateTime());
+    }
 
     public static void main(String[] args) {
 //        User user = new User(
@@ -52,8 +54,17 @@ public class Main {
         System.out.println(main.isActivated(u2));
         System.out.println(main.isActivated(u3));
         System.out.println(main.isActivated(
-             new  User("x","y","z",LocalDate.of(1999,24,6))
+             new  User("x","y","z",LocalDate.of(1999,10,6))
         ));
+        main.isEarlierRegistrated(
+                 new  User("a","d","s",LocalDate.of(1999,10,6)),
+                u1
+        );
+        main.isEarlierRegistrated(
+                (User) u1,
+                (User) u2
+        );
+
     }
 
 
