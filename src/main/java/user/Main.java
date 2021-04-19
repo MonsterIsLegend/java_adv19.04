@@ -4,6 +4,8 @@ import java.time.LocalDate;
 
 public class Main {
 
+
+
     public static void main(String[] args) {
         User user = new User(
                 "js","js", "jaaanek9(@gmail.com",
@@ -14,6 +16,11 @@ public class Main {
         Admin admin = new Admin("aa", "bb", "ja@wp.pl", LocalDate.of(1999 , 5 , 16),
         new String[]{"R","W","a"},"Jan", "Solski"
         );
+
+        admin.setName("XD");
+        admin.setStatus(false);
+        System.out.println(admin);
+
 
     }
 
