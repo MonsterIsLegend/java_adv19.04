@@ -52,6 +52,8 @@ public class OuterClass {
         System.out.println(innerClass2);
         InnerClass innerClass3 = outerClass.getInnerClassDefaultObject();
         System.out.println(innerClass3);
+        innerClass2.getInnerInfo();
+
     }
 
 
