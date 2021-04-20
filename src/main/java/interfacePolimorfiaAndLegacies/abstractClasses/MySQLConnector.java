@@ -1,4 +1,4 @@
-package abstractClasses;
+package interfacePolimorfiaAndLegacies.abstractClasses;
 
 public class MySQLConnector extends  DataBaseConnector{
 // dziedzicze metodę connect

@@ -1,4 +1,4 @@
-package oop;
+package interfacePolimorfiaAndLegacies.oop;
 
 import lombok.*;
 

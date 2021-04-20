@@ -1,4 +1,4 @@
-package innerclasses;
+package interfacePolimorfiaAndLegacies.innerclasses;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

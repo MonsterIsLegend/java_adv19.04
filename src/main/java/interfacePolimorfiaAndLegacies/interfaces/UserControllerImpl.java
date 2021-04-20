@@ -1,6 +1,6 @@
-package interfaces;
+package interfacePolimorfiaAndLegacies.interfaces;
 
-import oop.User;
+import interfacePolimorfiaAndLegacies.oop.User;
 
 import java.time.LocalDate;
 

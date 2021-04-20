@@ -1,8 +1,7 @@
-package lists;
+package collections.lists;
 
 import lombok.AllArgsConstructor;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -57,6 +56,20 @@ public class Statistics {
             }
         }
         return elements.get(maxindex);
+        // lepsza wersja
+        //List<Integer> elementsCopy = new ArrayList<>(elements);
+        //        int frequent_element = elementsCopy.get(0);
+        //        int frequency = 0;
+        //        while (!elementsCopy.isEmpty()) {
+        //            int element = elementsCopy.get(0);
+        //            int before = elementsCopy.size();
+        //            elementsCopy.removeAll(new ArrayList<>(Arrays.asList(element)));
+        //            if ((before - elementsCopy.size()) > frequency) {
+        //                frequency = before - elementsCopy.size();
+        //                frequent_element = element;
+        //            }
+        //        }
+        //        return frequent_element;
     }
 
     public static void main(String[] args) {

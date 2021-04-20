@@ -1,4 +1,4 @@
-package abstractClasses;
+package interfacePolimorfiaAndLegacies.abstractClasses;
 
 
 import lombok.Getter;

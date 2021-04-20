@@ -1,6 +1,6 @@
-package interfaces;
+package interfacePolimorfiaAndLegacies.interfaces;
 
-import oop.User;
+import interfacePolimorfiaAndLegacies.oop.User;
 
 //wszystkie metody sa publiczne i abstrakcyjne
 // pola są statyczne i finalne
