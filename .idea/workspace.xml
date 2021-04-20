@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)))))">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadanie7/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadanie7/CompareCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadanie7/CompareGeometricObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadanie7/GeometricalObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadanie7/Resizable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadanie7/ResizableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lists/ListsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lists/Statistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/innerclasses/OuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/innerclasses/OuterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/innerclasses/OuterClass$InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/innerclasses/OuterClass$InnerClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/innerclasses/OuterClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/innerclasses/OuterClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +47,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.CompareCircle">
+  <component name="RunManager" selected="Application.Statistics">
     <configuration name="CompareCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zadanie7.CompareCircle" />
       <module name="java_adv1" />
@@ -81,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.Main" />
+    <configuration name="ListsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lists.ListsExample" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.*" />
+          <option name="PATTERN" value="lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Statistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lists.Statistics" />
+      <module name="java_adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Statistics" />
+        <item itemvalue="Application.ListsExample" />
         <item itemvalue="Application.CompareCircle" />
         <item itemvalue="Application.OuterClass" />
         <item itemvalue="Application.DataBaseConnector" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618838485370</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=":)))))">
+      <created>1618905416347</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618905416347</updated>
+    </task>
+    <task id="LOCAL-00010" summary=":)))))">
+      <created>1618905427631</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618905427631</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
