@@ -11,22 +11,18 @@ public class ExceptionsTrigger {
         try {                                             //jezeli w try wystąpi wyjątek to przejdź do catch
 
             if (index == 0) {                                // dla określonego przypadku syntetycznie zgłos nullpointerexception
-                throw new NullPointerException();
+                throw new CantTouchThis();
             }
 
             int element = elements.get(index);// identyfikacja miejsca wystąpienia wyjątku
             return element;
         } catch (IndexOutOfBoundsException ex) {// obsluga wyjątku IndexOutOfBoundsException
             ex.printStackTrace();
-            return null;
         } catch (NullPointerException ex) {
             ex.printStackTrace();
-            return null;
         } catch (Exception ex) {
             ex.printStackTrace();
-            return null;
-
-        }
+        }return null;
 
     }
 
