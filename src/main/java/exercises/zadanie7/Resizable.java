@@ -1,4 +1,4 @@
-package zadanie7;
+package exercises.zadanie7;
 
 public interface Resizable {
 
