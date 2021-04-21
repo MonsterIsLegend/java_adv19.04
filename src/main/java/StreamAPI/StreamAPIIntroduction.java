@@ -24,19 +24,29 @@ public class StreamAPIIntroduction {
 //        }
         //CTRL + Space
         names.stream().filter(name -> name.toUpperCase().charAt(name.length() - 1) == 'A')// Stream<String> filtrujący
-                       .forEach(name -> System.out.println(name));
-        //imiona żenskie ale przed dodaj napis kobieta
-
-        names.stream().filter(name -> name.toUpperCase().charAt(name.length() - 1) == 'A')
-                       .map(name -> "kobieta" + name )// Stream<String> filtrujący
-                .forEach(System.out::println); // można dodać do souta "Kobieta: " +
+                .forEach(name -> System.out.println(name));
 
         //zwróc liste imion męskich
+
         List<String> males = names.stream()
                 .filter(name -> name.toUpperCase().charAt(name.length() - 1) != 'A')    //Stream<String>
                 .collect(Collectors.toList()); //List<String>
-                males.forEach(s -> System.out.println(s));
+        males.forEach(s -> System.out.println(s));
+        //imiona żenskie ale przed dodaj napis kobieta
 
-        }
+        names.stream().filter(name -> name.toUpperCase().charAt(name.length() - 1) == 'A')
+                .map(name -> "kobieta " + name)// Stream<String> filtrujący
+                .forEach(System.out::println); // można dodać do souta "Kobieta: " +
+        //w jednym poleceniu ile jest kobiet na liscie
+        long femaleCount = names.stream()
+                .filter(name -> name.toUpperCase().charAt(name.length() - 1) == 'A')
+                .count();
+        System.out.println(femaleCount);
+        long femaleUniqeCount = names.stream()
+                .filter(name -> name.toUpperCase().charAt(name.length() - 1) == 'A')
+                .distinct()
+                .count();
+        System.out.println(femaleUniqeCount);
+    }
 
 }
