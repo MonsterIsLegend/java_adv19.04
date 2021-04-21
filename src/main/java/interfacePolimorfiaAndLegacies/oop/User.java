@@ -20,7 +20,7 @@ public class User {
     private LocalDateTime registrationDateTime;
     private boolean status;
 
-    public User(String login, String password, String email, LocalDate birthDate) {
+    public User(String login,  String email, String password, LocalDate birthDate) {
         this.login = login;
         this.password = password;
         this.email = email;

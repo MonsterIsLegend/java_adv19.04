@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)))))">
+      <change afterPath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPINumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StreamAPI/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StreamAPI/UsersRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPIIntroduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPIIntroduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfacePolimorfiaAndLegacies/oop/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfacePolimorfiaAndLegacies/oop/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/StreamAPI/StreamAPIIntroduction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StreamAPI/StreamAPIIntroduction.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +56,7 @@
       <recent name="exercises.zadanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamAPIIntroduction">
+  <component name="RunManager" selected="Application.UsersRepositoryImpl">
     <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercises.zadanie1.Ex1" />
       <module name="java_adv1" />
@@ -66,34 +70,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionsTrigger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ExceptionsTrigger" />
-      <module name="java_adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.deques.Stash" />
-      <module name="java_adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.deques.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamAPIIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamAPI.StreamAPIIntroduction" />
+      <module name="java_adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StreamAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPINumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamAPI.StreamAPINumbers" />
+      <module name="java_adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StreamAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersRepositoryImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamAPI.UsersRepositoryImpl" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsersRepositoryImpl" />
+        <item itemvalue="Application.StreamAPINumbers" />
         <item itemvalue="Application.StreamAPIIntroduction" />
         <item itemvalue="Application.ex2" />
         <item itemvalue="Application.Ex1" />
-        <item itemvalue="Application.ExceptionsTrigger" />
-        <item itemvalue="Application.Stash" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618996326044</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=":)))))">
+      <created>1618996936022</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1618996936022</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

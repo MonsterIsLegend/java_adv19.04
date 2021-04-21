@@ -1,9 +1,6 @@
 package StreamAPI;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class StreamAPIIntroduction {
@@ -47,6 +44,20 @@ public class StreamAPIIntroduction {
                 .distinct()
                 .count();
         System.out.println(femaleUniqeCount);
+        // wyszukaj osobe o imieniu ela
+        String searchName = "Ela";
+        Optional<String> resultOptional = names.stream()
+                .filter(name ->name.toUpperCase().equals(searchName.toUpperCase()))
+                .findFirst();
+//        if(resultOptional.isPresent()){
+//            System.out.println("Znaleziono " + resultOptional.get());
+//        } else{
+//            System.out.println("Nie znaleziono imienia " + searchName);
+//        }
+        resultOptional.ifPresent(name -> System.out.println("Znaleziono " + name) );
+        System.out.println(resultOptional.orElse("Nie znaleziono imienia " + searchName));
     }
 
 }
+
+
