@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)))))">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie1/CannotDivideBy0Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie1/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie2/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie2/BookRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie2/NoBookFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie2/ex2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zadanie7/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie7/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zadanie7/CompareCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie7/CompareCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zadanie7/CompareGeometricObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie7/CompareGeometricObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zadanie7/GeometricalObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie7/GeometricalObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zadanie7/Resizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie7/Resizable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zadanie7/ResizableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zadanie7/ResizableCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zadanie7/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zadanie7/CompareCircle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zadanie7/CompareGeometricObjects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zadanie7/GeometricalObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zadanie7/Resizable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zadanie7/ResizableCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPIIntroduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPIIntroduction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +51,7 @@
       <recent name="exercises.zadanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ex2">
+  <component name="RunManager" selected="Application.StreamAPIIntroduction">
     <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercises.zadanie1.Ex1" />
       <module name="java_adv1" />
@@ -96,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapsIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.maps.MapsIteration" />
+    <configuration name="Stash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.deques.Stash" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.maps.*" />
+          <option name="PATTERN" value="collections.deques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.deques.Stash" />
+    <configuration name="StreamAPIIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamAPI.StreamAPIIntroduction" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.deques.*" />
+          <option name="PATTERN" value="StreamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamAPIIntroduction" />
         <item itemvalue="Application.ex2" />
         <item itemvalue="Application.Ex1" />
         <item itemvalue="Application.ExceptionsTrigger" />
         <item itemvalue="Application.Stash" />
-        <item itemvalue="Application.MapsIteration" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618923301012</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=":)))))">
+      <created>1618994313501</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618994313501</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
