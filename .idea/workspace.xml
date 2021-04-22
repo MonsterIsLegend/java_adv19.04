@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)))))">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1IO/ListResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad4IO/SentenceAnalizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad4IO/definition.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/CsvParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/users.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyNotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyNotes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNotesAppend.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myNotesAppend.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1PF/Episode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1PF/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1PF/Season.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/SerialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1PF/SerialData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/SerialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1PF/SerialRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/SerialRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1PF/SerialRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1PF/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/VideoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1PF/VideoType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ioOperations/FileOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ioOperations/FileOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/Episode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/Episode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/Season.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/Season.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/SerialData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/SerialData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/SerialRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/SerialRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/SerialRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/SerialRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/Video.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/VideoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/Zad1PF/VideoType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ioOperations/FileOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ioOperations/FileOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exercises/zad4IO/SentenceAnalizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/zad4IO/SentenceAnalizer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +59,20 @@
       <recent name="exercises.zadanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SentenceAnalizer">
+  <component name="RunManager" selected="Application.CsvParser">
+    <configuration name="CsvParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.zad5IO.CsvParser" />
+      <module name="java_adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.zad5IO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ioOperations.FileOperations" />
       <module name="java_adv1" />
@@ -130,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsersRepositoryImpl (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamAPI.UsersRepositoryImpl" />
-      <module name="java_adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streamAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CsvParser" />
         <item itemvalue="Application.SentenceAnalizer" />
         <item itemvalue="Application.FileOperations" />
         <item itemvalue="Application.ListResources" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.UsersRepositoryImpl (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619084400230</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=":)))))">
+      <created>1619091063689</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1619091063690</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
