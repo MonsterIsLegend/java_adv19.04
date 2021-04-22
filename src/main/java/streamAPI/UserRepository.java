@@ -1,4 +1,4 @@
-package StreamAPI;
+package streamAPI;
 
 import interfacePolimorfiaAndLegacies.oop.User;
 
@@ -25,10 +25,10 @@ public interface UserRepository {
     //pobierz uzytkownika po adresie e-mail
     Optional<User> getUserByEmail( String email );
     //tabela pogrupowana po roku urodzenia
-    Map<Integer, User> getUsersGroupingByYear();
+    Map<Integer, List<User>> getUsersGroupingByYears();
     // zwróc dane o użytkownikach w typie string :
     //   | login | email | password | birthDate |
     String getUsersInfo();
     //zwróc listę użytkowników z hasłem zaszyfrowanym algorytmem md5
-    List<User> getUsersWithEncodedPassword();
+    List<User> getUsersWithEncodedPassword(  String algorithmName );
 }

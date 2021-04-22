@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)))))">
-      <change afterPath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPINumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StreamAPI/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StreamAPI/UsersRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/Episode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/SerialData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/SerialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/SerialRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zad1PF/VideoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ioOperations/FileOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPIIntroduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPIIntroduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfacePolimorfiaAndLegacies/oop/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfacePolimorfiaAndLegacies/oop/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPIIntroduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streamAPI/StreamAPIIntroduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StreamAPI/StreamAPINumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streamAPI/StreamAPINumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StreamAPI/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streamAPI/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StreamAPI/UsersRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streamAPI/UsersRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/StreamAPI/StreamAPIIntroduction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StreamAPI/StreamAPIIntroduction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StreamAPI/StreamAPINumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StreamAPI/StreamAPINumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interfacePolimorfiaAndLegacies/oop/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interfacePolimorfiaAndLegacies/oop/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -52,17 +67,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="enums" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="exercises.zadanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UsersRepositoryImpl">
-    <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.zadanie1.Ex1" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.Zad1PF.Main" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.zadanie1.Ex1" />
+          <option name="PATTERN" value="exercises.Zad1PF.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAPIIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamAPI.StreamAPIIntroduction" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enums.Main" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamAPI.*" />
+          <option name="PATTERN" value="enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +106,20 @@
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamAPI.*" />
+          <option name="PATTERN" value="streamAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersRepositoryImpl (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamAPI.UsersRepositoryImpl" />
+      <module name="java_adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,20 +132,7 @@
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.zadanie2.ex2" />
-      <module name="java_adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.zadanie2.*" />
+          <option name="PATTERN" value="streamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.UsersRepositoryImpl (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.UsersRepositoryImpl" />
         <item itemvalue="Application.StreamAPINumbers" />
-        <item itemvalue="Application.StreamAPIIntroduction" />
-        <item itemvalue="Application.ex2" />
-        <item itemvalue="Application.Ex1" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618996936022</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary=":)))))">
+      <created>1619006412979</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1619006412979</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
