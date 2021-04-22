@@ -1,8 +1,7 @@
-package exercises.Zad1PF;
+package exercises.zad1PF;
 
 import lombok.Data;
 
-import java.util.List;
 @Data
 public class Video {
     public String title;

@@ -1,4 +1,4 @@
-package exercises.Zad1PF;
+package exercises.zad1PF;
 
 public class Main {
     public static void main(String[] args) {

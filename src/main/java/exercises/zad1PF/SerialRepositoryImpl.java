@@ -1,4 +1,4 @@
-package exercises.Zad1PF;
+package exercises.zad1PF;
 
 import java.util.List;
 import java.util.stream.Collectors;
