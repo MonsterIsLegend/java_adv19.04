@@ -4,12 +4,14 @@ package exercises.zad5IO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
-    private String name;
+    public String name;
     private String lastname;
-    private int age;
+    public  int age;
 }

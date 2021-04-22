@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)))))">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/CsvParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflections/Reflections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/zad4IO/SentenceAnalizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/zad4IO/SentenceAnalizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exercises/zad5IO/CsvParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/zad5IO/CsvParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exercises/zad5IO/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/zad5IO/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <recent name="exercises.zadanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CsvParser">
+  <component name="RunManager" selected="Application.Reflections">
     <configuration name="CsvParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercises.zad5IO.CsvParser" />
       <module name="java_adv1" />
@@ -99,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.zad1PF.Main" />
+    <configuration name="Reflections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflections.Reflections" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.zad1PF.*" />
+          <option name="PATTERN" value="reflections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reflections" />
         <item itemvalue="Application.CsvParser" />
         <item itemvalue="Application.SentenceAnalizer" />
         <item itemvalue="Application.FileOperations" />
         <item itemvalue="Application.ListResources" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619091063690</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary=":)))))">
+      <created>1619094471686</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1619094471686</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
