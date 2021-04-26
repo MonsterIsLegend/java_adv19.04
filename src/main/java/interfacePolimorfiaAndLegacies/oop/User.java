@@ -79,7 +79,7 @@ public class User {
 
     @Override //przysłonięcie implementacji z nadklasy
     public String toString() {
-        return "User{" +
+        return "Statics.User{" +
                 "login='" + login + '\'' +
                 //", password='" + password + '\'' +
                 ", email='" + email + '\'' +

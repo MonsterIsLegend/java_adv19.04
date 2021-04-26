@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)))))">
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflections/Reflections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Statics/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/WarmUp/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/WarmUp/Weekday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad1i2r/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Countif.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/SwapOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5IO/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/zad5IO/CsvParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/zad5IO/CsvParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/zad5IO/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/zad5IO/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfacePolimorfiaAndLegacies/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfacePolimorfiaAndLegacies/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfacePolimorfiaAndLegacies/oop/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfacePolimorfiaAndLegacies/oop/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streamAPI/UsersRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streamAPI/UsersRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interfacePolimorfiaAndLegacies/oop/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interfacePolimorfiaAndLegacies/oop/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="1rNYuOuOGu85u516TdbsRb3mEcW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,13 +72,13 @@
       <recent name="exercises.zadanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reflections">
-    <configuration name="CsvParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.zad5IO.CsvParser" />
+  <component name="RunManager" selected="Application.SwapOperation">
+    <configuration name="Countif" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.Countif" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.zad5IO.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ioOperations.FileOperations" />
+    <configuration name="Pair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.Pair" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ioOperations.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.zad1IO.ListResources" />
+    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.WarmUp.Power" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.zad1IO.*" />
+          <option name="PATTERN" value="exercises.WarmUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflections.Reflections" />
+    <configuration name="SwapOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.SwapOperation" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflections.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,26 +125,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SentenceAnalizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.zad4IO.SentenceAnalizer" />
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Statics.User" />
       <module name="java_adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.zad4IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Reflections" />
-        <item itemvalue="Application.CsvParser" />
-        <item itemvalue="Application.SentenceAnalizer" />
-        <item itemvalue="Application.FileOperations" />
-        <item itemvalue="Application.ListResources" />
+        <item itemvalue="Application.SwapOperation" />
+        <item itemvalue="Application.Countif" />
+        <item itemvalue="Application.Pair" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.Power" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619094471686</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=":)))))">
+      <created>1619097129459</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1619097129459</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

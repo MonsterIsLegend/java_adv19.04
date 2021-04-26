@@ -20,9 +20,9 @@ public class UsersRepositoryImpl implements UserRepository {
     public List<User> getAllUsersOrderBy(String filedName, boolean isAsc) {
         if (filedName.toUpperCase().equals("data urodzenia".toUpperCase())) {
             if (isAsc) { // rosnąco
-                return users.stream()                                       // Stream<User>
-                        .sorted(Comparator.comparing(User::getBirthDate))   // Stream<User>
-                        .collect(Collectors.toList());                      // List<User>
+                return users.stream()                                       // Stream<Statics.User>
+                        .sorted(Comparator.comparing(User::getBirthDate))   // Stream<Statics.User>
+                        .collect(Collectors.toList());                      // List<Statics.User>
             }
             // malejąco
             return users.stream()

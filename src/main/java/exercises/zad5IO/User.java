@@ -1,5 +1,5 @@
 package exercises.zad5IO;
-//Z wykorzystaniem powyższego pliku jego odczytanie powinno skutkowaćzwróceniem listy trzyelementowej obiektów typu User
+//Z wykorzystaniem powyższego pliku jego odczytanie powinno skutkowaćzwróceniem listy trzyelementowej obiektów typu Statics.User
 // o polach: imię, nazwisko,wiek.
 
 import lombok.AllArgsConstructor;

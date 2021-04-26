@@ -13,7 +13,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-//        User user = new User(
+//        Statics.User user = new Statics.User(
 //                "js","js", "jaaanek9(@gmail.com",
 //                LocalDate.of(1999,5,16)
 //        );
