@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)) Dodanie kilku klas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5G/AnimalHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/MyFirstThread.java" afterDir="false" />
+    <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)) wątki n stuff">
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/zad1Thr/EvenDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/zad3Thr/SortingAlgorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/zad5G/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/zad5G/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/WarmUp/Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/WarmUp/Power.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercises/WarmUp/Weekday.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercises/WarmUp/Weekday.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/Countif$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/Countif$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/Countif.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/SwapOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/Validator.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +59,13 @@
       <recent name="exercises.zadanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Countif" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.zad1i2G.Countif" />
+  <component name="RunManager" selected="Application.SortingAlgorithms">
+    <configuration name="EvenDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.zad1Thr.EvenDetector" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.zad1i2G.*" />
+          <option name="PATTERN" value="threads.zad1Thr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.Pair" />
+    <configuration name="SortingAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.zad3Thr.SortingAlgorithms" />
       <module name="java_adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.zad1i2G.*" />
+          <option name="PATTERN" value="threads.zad3Thr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingAlgorithms" />
+        <item itemvalue="Application.EvenDetector" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SwapOperation" />
-        <item itemvalue="Application.Countif" />
-        <item itemvalue="Application.Pair" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619432003849</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=":)) wątki n stuff">
+      <created>1619439161126</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1619439161126</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,7 +367,8 @@
     <MESSAGE value=":))" />
     <MESSAGE value=":)))))" />
     <MESSAGE value=":)) Dodanie kilku klas" />
-    <option name="LAST_COMMIT_MESSAGE" value=":)) Dodanie kilku klas" />
+    <MESSAGE value=":)) wątki n stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value=":)) wątki n stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
