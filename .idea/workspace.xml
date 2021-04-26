@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f86778-99bc-4e83-853a-f3f16e03273e" name="Default Changelist" comment=":)) wątki n stuff">
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/zad1Thr/EvenDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/zad3Thr/SortingAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/zad4Thr/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/zad4Thr/AccountOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,20 @@
       <recent name="exercises.zadanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingAlgorithms">
+  <component name="RunManager" selected="Application.AccountOperations">
+    <configuration name="AccountOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.zad4Thr.AccountOperations" />
+      <module name="java_adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.zad4Thr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EvenDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.zad1Thr.EvenDetector" />
       <module name="java_adv1" />
@@ -112,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.zad3G.SwapOperation" />
-      <module name="java_adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.zad1i2G.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountOperations" />
         <item itemvalue="Application.SortingAlgorithms" />
         <item itemvalue="Application.EvenDetector" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SwapOperation" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619439161126</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary=":)) wątki n stuff">
+      <created>1619443350460</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1619443350460</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
